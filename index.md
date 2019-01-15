@@ -4,7 +4,7 @@ Here are where you can find my write ups for each week in Oregon State's Defense
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="/CS373/{{ post.url }}">{{ post.title }}</a>
+      <a href="/CS373{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
